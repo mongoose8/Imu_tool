@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+ <node pkg="imu_tool" type="imu_tool" name="imu_tool" output="screen">
+<!--  <remap from="p_imu" to="/fcu/imu"/>-->
+    <!--<param name="map_frame" value="map" />
+    <param name="base_frame" value="base_stabilized"/>
+    <param name="odom_frame" value="base_stabilized"/>-->
+    
+   
+    
+ </node>
+  <!--<node pkg="tf" type="static_transform_publisher" name="map_matcher_sta" args="0 0 0 0 0 0 base_stabilized /fcu/imu 100"/>-->
+  
+</launch>
